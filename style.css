@@ -298,8 +298,9 @@ video {
   margin: 0 auto;
 }
 .myimagecaraousal{
-  height: 510px!important;
+  height: 510px!important;border: 10px solid #fff!important
 }
+
 .secondlast {
   padding: 40px 10px;
   color: rgb(163 163 164);
