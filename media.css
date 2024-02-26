@@ -3,11 +3,13 @@
     padding: 0px 10px;
     width: 100%;
   }
-  .navbar-icons {
+  .my-icon-nav {
     display: flex;
     position: absolute;
-    right: 65px;
+    right: 70px;
     gap: 10px;
+  
+    
   }
   .navbar-toggler {
     padding: 5px 10px;
@@ -98,6 +100,15 @@
   .accordion:active{
     outline: none;border: none;box-shadow: none
   }
+  .hero-video{
+    position: absolute;bottom: 10px;color: #fff;width: 100%;text-align: center;text-transform: capitalize
+  }
+  .hero-video h2{
+    font-size: 18px;
+  }
+  .logo{
+    width: fit-content;height: 50px;position: relative;top: 10px
+  }
   .section-2 h1{
     font-size: 28px
   }
@@ -142,10 +153,10 @@
   .container-fluid {
     width: 100%;
   }
-  .navbar-icons {
+  .my-icon-nav {
     display: flex;
     position: absolute;
-    right: 65px;
+    right: 70px;
     gap: 10px;
   }
   .navbar-toggler {
@@ -164,10 +175,10 @@
     padding: 0px 10px;
     width: 100%;
   }
-  .navbar-icons {
+  .my-icon-nav {
     display: flex;
     position: absolute;
-    right: 65px;
+    right:70px; 
     gap: 10px;
   }
   .navbar-toggler {
