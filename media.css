@@ -5,12 +5,27 @@
   }
   .my-icon-nav {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 70px;
     gap: 10px;
-  
-    
+    top: 3px
   }
+    .navbar-toggler:focus{
+      box-shadow: none!important;outline: none!important
+    }
+    .navbar a{
+      font-size: 24px!important;padding-top: 5px;;font-weight: 600
+    }
+    .navbar-collapse{
+      padding: 20px 0px
+    }
+  .logo{
+    width: 115px;
+  }
+  .hero-video h2{
+    font-size: 16px;
+  }
+
   .navbar-toggler {
     padding: 5px 10px;
     font-size: 13px;
@@ -76,9 +91,6 @@
     padding: 25px 10px;
     margin-top: 0px;
   }
-  footer {
-    display: none;
-  }
   .lastfootparent {
     padding: 40px 55px 10px 10px;
   }
@@ -86,13 +98,13 @@
 
 @media (max-width: 784px) {
   .accordion {
-    display: unset;outline: none;border: none;box-shadow: none
+    display: unset;outline: none;border: none;box-shadow: none;
   }
   .accordion-button:focus{
     box-shadow: none!important
   }
   .accordion.active{
-   background: red!important 
+    background: red!important 
   }
   .accordion:focus{
     outline: none;border: none;box-shadow: none
@@ -100,11 +112,33 @@
   .accordion:active{
     outline: none;border: none;box-shadow: none
   }
+  .navbar-toggler{
+  position: relative;left: -10px;background-color: rgb(92, 81, 81)!important;
+  }
+  .navbar-toggler:active{
+    box-shadow: none!important;outline: none!important
+  }
+  .navbar-toggler:focus{
+    box-shadow: none!important;outline: none!important
+  }
+  .navbar a{
+    font-size: 24px!important;padding-top: 5px;
+  }
+  .navbar-collapse{
+    padding: 20px 0px
+  }
+  .my-icon-nav {
+    display: flex;
+    position: fixed;
+    right: 70px;
+    gap: 10px;
+    top: 3px
+  }
   .hero-video{
-    position: absolute;bottom: 10px;color: #fff;width: 100%;text-align: center;text-transform: capitalize
+    position: absolute;bottom: 30px;color: #fff;width: 100%;text-align: center;text-transform: capitalize
   }
   .hero-video h2{
-    font-size: 18px;
+    font-size: 24px;
   }
   .logo{
     width: fit-content;height: 50px;position: relative;top: 10px
@@ -128,7 +162,7 @@
     font-size: 20px
   }
 
-
+  
   .section2-links a{
     font-size: 17px
   }
@@ -142,11 +176,8 @@
   }
   .myimagecaraousal {
     height: 365px!important;
-}
-
-  footer {
-    display: none;
   }
+  
   .lastfootparent {
     padding: 40px 55px 10px 10px;
   }
@@ -177,13 +208,26 @@
   }
   .my-icon-nav {
     display: flex;
-    position: absolute;
+    position: fixed;
     right:70px; 
     gap: 10px;
+    top: 2px
+  }
+  .navbar-toggler:focus{
+    box-shadow: none!important;outline: none!important
+  }
+  .navbar a{
+    font-size: 24px!important;padding-top: 5px;;font-weight: 600
+  }
+
+  .navbar-collapse{
+    padding: 20px 0px
   }
   .navbar-toggler {
     padding: 5px 10px;
     font-size: 13px;
+  position: relative;left: -10px;background-color: rgb(92, 81, 81)!important;
+  
   }
   .section-4-text-5 h3 {
     width: fit-content;
@@ -202,4 +246,34 @@
   .lastfootparent {
     padding: 40px 20px;
   }
+}
+@media (max-width:450px){
+  .hero-video h2{
+    font-size: 16px;
+  }
+  .logo{
+    width: 115px
+  }
+
+  .button {
+    padding: 2px 14px;margin-top: 2px}
+    .hero-video{
+      position: absolute;bottom: 15px;}
+}
+@media (min-width:580px) and (max-width:784px){
+  .my-icon-nav {
+    display: flex;
+    position: fixed;
+    right: 70px;
+    gap: 10px;
+    top: 3px
+  }
+}
+@media(min-width:991px) and (max-width:1240px){
+  .accordion{
+    width: 76%;
+    margin: auto;
+    
+}
+  
 }
